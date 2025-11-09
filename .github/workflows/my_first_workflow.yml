@@ -12,6 +12,6 @@ jobs:
       - name: multiline script
         run: |
           python3 -V
-          touch my_file_with_workflow.py
+          touche my_file_with_workflow.py
           echo "#1st workflow" >> my_file_with_workflow.py
           ls -l
